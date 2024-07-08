@@ -11,9 +11,10 @@
         android:id="@+id/tvZara"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="188dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="76dp"
         android:text="Zara"
+        android:textSize="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,6 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
+        android:textSize="16dp"
         android:text="Cargo short"
         app:layout_constraintStart_toEndOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/tvZara" />
@@ -42,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:text="size"
         app:layout_constraintStart_toEndOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/tvOne" />
@@ -51,20 +53,21 @@
         android:id="@+id/tvThree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:text="color"
         app:layout_constraintTop_toBottomOf="@+id/tvOne"
-        tools:layout_editor_absoluteX="262dp" />
+        tools:layout_editor_absoluteX="271dp" />
 
     <TextView
         android:id="@+id/tvfour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="72dp"
         android:text="price"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
         app:layout_constraintStart_toEndOf="@+id/tvThree"
         app:layout_constraintTop_toBottomOf="@+id/tvOne" />
 
@@ -75,6 +78,8 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="64dp"
         android:text="Add cart"
+        android:textColor="@color/black"
+        android:backgroundTint="#E3C39D"
         app:layout_constraintStart_toEndOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/tvThree" />
 
@@ -91,6 +96,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Money Queen"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView20"
         tools:layout_editor_absoluteY="457dp" />
@@ -133,7 +139,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
+        android:backgroundTint="#E3C39D"
         android:text="Add cart"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView20"
         app:layout_constraintTop_toBottomOf="@+id/tveight" />
